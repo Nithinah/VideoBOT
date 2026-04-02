@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+.app-container {
+  padding: 10px;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.video-column, .chat-column {
+  flex: 1;
+  background-color: #1e293b;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.chat-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chat-input {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  background: #334155;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.chat-input button {
+  padding: 10px 16px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #4338ca;
+}
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.chat-bubble {
+  max-width: 80%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-size: 15px;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.left {
+  align-self: flex-start;
+  background-color: #334155;
+  color: white;
+}
+
+.right {
+  align-self: flex-end;
+  background-color: #1e3a8a;
+  color: white;
+}
+
+.bubble-user {
+  font-weight: bold;
+}
+
+.bubble-bot {
+  margin-top: 5px;
+}
+
+.clickable-timestamp {
+  color: #4eaaff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Upload section styling */
+.upload-bar button {
+  background-color: #4ade80;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.upload-bar button:hover {
+  background-color: #22c55e;
+}

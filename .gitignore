@@ -1,0 +1,29 @@
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Project specifics
+visiontrace/
+
+# Backend large folders
+backend/__pycache__/
+backend/audio_chunks/
+backend/clips/
+backend/chroma_store/
+backend/uploaded_videos/
+
+# Frontend large folders
+frontend/node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other large files
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mkv
